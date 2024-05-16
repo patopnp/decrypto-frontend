@@ -1,12 +1,12 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/comitentes';
+const REST_API_BASE_URL = 'https://appdecrypto.rj.r.appspot.com/api/comitentes';
 
-const REST_API_BASE_URL_MERCADOS = 'http://localhost:8080/api/mercados';
+const REST_API_BASE_URL_MERCADOS = 'https://appdecrypto.rj.r.appspot.com/api/mercados';
 
-const REST_API_BASE_URL_PAISES = 'http://localhost:8080/api/paises';
+const REST_API_BASE_URL_PAISES = 'https://appdecrypto.rj.r.appspot.com/api/paises';
 
-const REST_API_BASE_URL_STATS = 'http://localhost:8080/api/stats';
+const REST_API_BASE_URL_STATS = 'https://appdecrypto.rj.r.appspot.com/api/stats';
 
 export const listPaises = () => {
     return axios.get(REST_API_BASE_URL_PAISES);
